@@ -1,0 +1,220 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  </head>
+
+  <body>
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="./aviasales.css">
+      <div class="container">
+      <div class="flex wrapper">
+        <div class="m-header text-default-font text-bold text-color4">
+          Main metrics
+        </div>
+
+        <div class="resolution-tabs">
+          <div class="flex m-btn-group">
+            <a class="m-btn text-color4" href="#">Last hour</a>
+            <a class="m-btn text-color4" href="#">Today</a>
+            <a class="m-btn text-color4" href="#">Yesterday</a>
+            <a class="m-btn text-color4" href="#">Last 3 days</a>
+          </div>
+        </div>
+
+        <div class="stats-container margin-container">
+          <div class="flex m-stats">
+            <div class="m-stats-grid">
+              <div class="stats-sign"><span class="dot bg-green"></span></div>
+              <span class="stats-label text-default-font text-bold text-size16 text-color4">Errors: 0,12%</span>
+              <div class="text-muted text-default-font text-bold text-size12 stats-avg">
+                Average: 0,11%
+              </div>
+            </div>
+            <div class="m-stats-grid">
+                <div class="stats-sign"><span class="dot bg-green"></span></div>
+                <span class="stats-label text-default-font text-bold text-size16 text-color4">Zeroes: 5,12%</span>
+                <div class="text-muted text-default-font text-bold text-size12 stats-avg">
+                  Average: 0,11%
+                </div>
+            </div>
+            <div class="m-stats-grid">
+                  <div class="stats-sign"><span class="dot bg-green"></span></div>
+                  <span class="stats-label text-default-font text-bold text-size16 text-color4">Timeouts: 0,12%</span>
+                  <div class="text-muted text-default-font text-bold text-size12 stats-avg">
+                    Average: 0,11%
+                  </div>
+            </div>
+          </div>
+          <div class="flex flex-column progress-bar-container">
+            <div class="flex progress">
+              <!-- (760 / 1024) * 100 = 74.22% -->
+              <div class="progress-bar progress-bar500 bg-yellow"></div>
+              <div class="progress-bar progress-bar501 bg-darkblue"></div>
+              <div class="progress-bar progress-bar502 bg-blue"></div>
+              <div class="progress-bar progress-barOther bg-grey"></div>
+            </div>
+            <div class="flex">
+              <div>
+                <span class="square bg-yellow"></span>
+                <span class="text-default-font text-bold text-size12">Error 500: 1 256</span>
+              </div>
+              <div class="error-counter-block">
+                  <span class="square bg-darkblue"></span>
+                  <span class="text-default-font text-bold text-size12">Error 501: 800</span>
+              </div>
+              <div class="error-counter-block">
+                  <span class="square bg-blue"></span>
+                  <span class="text-default-font text-bold text-size12">Error 502: 650</span>
+              </div>
+              <div class="error-counter-block">
+                  <span class="square bg-grey"></span>
+                  <span class="text-default-font text-bold text-size12">Other: 330</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- searches -->
+        <div class="flex stats-container margin-container">
+          <div class="flex flex-column flex-align-item-center">
+            <div>
+            <span class="dot48">
+                <svg class="svg" width="20" height="20" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M15.8719 0.597C15.6836 0.22875 15.3178 0 14.9156 0H1.08284C0.68139 0 0.314845 0.22875 0.126481 0.597C-0.0633372 0.969 -0.0378827 1.4145 0.191936 1.76025L5.75266 10.1453C5.79484 10.209 5.81739 10.2825 5.81739 10.359V16.8757C5.81739 17.496 6.30684 18 6.9083 18C7.10394 18 7.29666 17.9445 7.46757 17.8388L9.65303 16.4865C9.97884 16.284 10.181 15.915 10.181 15.5235V10.359C10.181 10.2825 10.2036 10.209 10.2465 10.1445L15.8065 1.761C16.0363 1.41525 16.0618 0.969 15.8719 0.597Z" fill="white"/>
+                </svg>
+              <span class="dot dot-inside bg-green"></span>
+            </span>
+            </div>
+            <svg width="10" height="69" viewBox="0 0 10 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.220392" fill-rule="evenodd" clip-rule="evenodd" d="M9.24585 0.170425C8.0191 0.325882 6.76892 0.405998 5.5 0.405998C3.82874 0.405998 2.18994 0.267021 0.594543 0L3.84613 63.406H0L4.5 68.406L9 63.406H5.19232L9.24585 0.170425Z" fill="url(#paint0_linear)"/>
+              <defs>
+              <linearGradient id="paint0_linear" x1="9.24585" y1="68.406" x2="9.24585" y2="0" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#2196F3"/>
+              <stop offset="1" stop-color="#A9D9FF"/>
+              </linearGradient>
+              </defs>
+            </svg>
+          </div>
+
+          <div class="flex flex-column need-more-space">
+            <div class="flex m-flex-justify-spacearound">
+              <div class="flex flex-column">
+                <div class="text-default-font text-bold text-size16 text-lineH-28 text-color4">Searches<span class="badge bg-green text-default-font text-size12 text-lineH-14 text-colorWhite">+5%</span></div>
+                <div>
+                  <span class="text-default-font text-lineH-28 text-size20 text-color4">29 380</span>
+                  <span class="text-default-font text-lineH-16 text-size12 text-color4 margin-left10">Yesterday</span>
+                </div>
+                <div>
+                    <span class="text-default-font text-lineH-28 text-size20 text-muted">27 985</span>
+                    <span class="text-default-font text-lineH-16 text-size12 text-muted margin-left10">Last friday</span>
+                </div>
+              </div>
+              <div class="flex flex-column">
+                <div class="text-default-font text-bold text-lineH-28 text-size16 text-color4">Mobile traffic: 100%</div>
+                <div class="text-default-font text-bold text-lineH-28 text-size16 text-color4">Web traffic: 100%</div>
+                <div class="text-default-font text-lineH-16 text-size12 text-muted">You get 100% traffic on mobile and desktop devices.</div>
+                <div class="text-default-font text-lineH-17 text-size12">Help: <a href="#" class="text-blue">Searches</a>, <a href="#" class="text-blue">Pessimisation</a></div>
+
+              </div>
+            </div>
+            <hr style="width: 100%;" />
+          </div>
+      </div>
+      <!-- searches end -->
+      <!-- Clicks start -->
+      <div class="flex stats-container">
+          <div class="flex flex-column flex-align-item-center">
+            <div>
+            <span class="dot48">
+                <svg class="svg" width="20" height="20" viewBox="0 0 15 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4.25 4.5V8.24001C3.03998 7.42999 2.25 6.06 2.25 4.5C2.25 2.00999 4.26001 0 6.75 0C9.23999 0 11.25 2.00999 11.25 4.5C11.25 6.06 10.46 7.42999 9.25 8.24001V4.5C9.25 3.12 8.13 2 6.75 2C5.37 2 4.25 3.12 4.25 4.5ZM9.54999 10.61L14.09 12.87C14.62 13.09 15 13.63 15 14.25C15 14.31 14.99 14.38 14.98 14.45L14.23 19.72C14.12 20.45 13.54 21 12.79 21H6C5.59003 21 5.21002 20.83 4.94 20.56L0 15.62L0.789978 14.82C0.98999 14.62 1.27002 14.49 1.58002 14.49C1.64001 14.49 1.69116 14.4989 1.74231 14.5078C1.76782 14.5122 1.79333 14.5167 1.82001 14.52L5.25 15.24V4.5C5.25 3.67 5.91998 3 6.75 3C7.58002 3 8.25 3.67 8.25 4.5V10.5H9.01001C9.20001 10.5 9.38 10.54 9.54999 10.61Z" fill="white"/>
+</svg>
+
+
+              <span class="dot dot-inside bg-red"></span>
+            </span>
+            </div>
+            <svg width="10" height="69" viewBox="0 0 10 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.220392" fill-rule="evenodd" clip-rule="evenodd" d="M9.24585 0.170425C8.0191 0.325882 6.76892 0.405998 5.5 0.405998C3.82874 0.405998 2.18994 0.267021 0.594543 0L3.84613 63.406H0L4.5 68.406L9 63.406H5.19232L9.24585 0.170425Z" fill="url(#paint0_linear)"/>
+              <defs>
+              <linearGradient id="paint0_linear" x1="9.24585" y1="68.406" x2="9.24585" y2="0" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#2196F3"/>
+              <stop offset="1" stop-color="#A9D9FF"/>
+              </linearGradient>
+              </defs>
+            </svg>
+          </div>
+
+          <div class="flex flex-column need-more-space">
+            <div class="flex m-flex-justify-spacearound">
+              <div class="flex flex-column">
+                <div class="text-default-font text-bold text-size16 text-lineH-28 text-color-red">Clicks<span class="badge bg-red text-default-font text-size12 text-lineH-14 text-colorWhite">-13%</span></div>
+                <div>
+                  <span class="text-default-font text-lineH-28 text-size20 text-color4">243</span>
+                  <span class="text-default-font text-lineH-16 text-size12 text-color4 margin-left10">Yesterday</span>
+                </div>
+                <div>
+                    <span class="text-default-font text-lineH-28 text-size20 text-muted">280</span>
+                    <span class="text-default-font text-lineH-16 text-size12 text-muted margin-left10">Last friday</span>
+                  </div>
+              </div>
+              <div class="flex flex-column">
+                <div class="text-default-font text-bold text-lineH-28 text-size16 text-color-red">CTR: 0,04%</div>
+
+                <div class="text-default-font text-lineH-16 text-size12 text-muted">Conversation from searches to clicks on all devices.</div>
+                <div class="text-default-font text-lineH-17 text-size12">Help: <a href="#" class="text-blue">CTR</a>, <a href="#" class="text-blue">Clicks</a>
+                </div>
+
+              </div>
+            </div>
+            <hr style="width:100%;" />
+          </div>
+      </div>
+      <!-- clicks end -->
+
+      <div class="flex stats-container">
+          <div class="flex flex-column flex-align-item-center">
+            <div>
+              <span class="dot48">
+                  <svg class="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V2H2L5.59497 9.58499L4.245 12.035C4.09003 12.325 4 12.65 4 13C4 14.105 4.89502 15 6 15H18V13H6.42499C6.28497 13 6.17499 12.89 6.17499 12.75C6.17499 12.705 6.185 12.665 6.20502 12.63L7.09998 11H14.55C15.3 11 15.955 10.585 16.3 9.97L19.875 3.48001C19.955 3.34 20 3.17499 20 3C20 2.44501 19.55 2 19 2H4.21503L3.26501 0H0ZM6 16C4.89502 16 4.01001 16.895 4.01001 18C4.01001 19.105 4.89502 20 6 20C7.10498 20 8 19.105 8 18C8 16.895 7.10498 16 6 16ZM14.01 18C14.01 16.895 14.895 16 16 16C17.105 16 18 16.895 18 18C18 19.105 17.105 20 16 20C14.895 20 14.01 19.105 14.01 18Z" fill="white"/>
+</svg>
+
+                <span class="dot dot-inside bg-green"></span>
+              </span>
+            </div>
+          </div>
+
+          <div class="flex flex-column need-more-space">
+            <div class="flex m-flex-justify-spacearound">
+              <div class="flex flex-column">
+                <div class="text-default-font text-bold text-size16 text-lineH-28 text-color4">Bookings<span class="badge bg-green text-default-font text-size12 text-lineH-14 text-colorWhite">+5%</span></div>
+                <div>
+                  <span class="text-default-font text-lineH-28 text-size20 text-color4">24</span>
+                  <span class="text-default-font text-lineH-16 text-size12 text-color4 margin-left10">Yesterday</span>
+                </div>
+                <div>
+                    <span class="text-default-font text-lineH-28 text-size20 text-muted">24</span>
+                    <span class="text-default-font text-lineH-16 text-size12 text-muted margin-left10">Last friday</span>
+                  </div>
+              </div>
+              <div class="flex flex-column">
+                <div class="text-default-font text-bold text-lineH-28 text-size16 text-color4">STR: 6,2%</div>
+                <div class="text-default-font text-bold text-lineH-28 text-size16 text-color4">Avg. Check: 8 903</div>
+
+                <div class="text-default-font text-lineH-16 text-size12 text-muted">Conversation from clicks to bookings on all devices.</div>
+                <div class="text-default-font text-lineH-17 text-size12">
+                  Help:
+                  <a href="#" class="text-blue">STR</a>,
+                  <a href="#" class="text-blue">Bookings</a>,
+                  <a href="#" class="text-blue">Avg.Check</a>
+                </div>
+              </div>
+            </div>
+            <hr style="width:100%" />
+          </div>
+      </div>
+    </div> <!-- wrapper-->
+    </div> <!-- container-->
+  </body>
+</html>
