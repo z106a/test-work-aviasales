@@ -1,3 +1,11 @@
+:root {
+  --color-blue: #2196F3;
+  --color-darkgrey: #4a4a4a;
+  --color-white: #ffffff;
+  --border-color: #D9D9D9;
+  --color-muted: #A0B0B9;
+  --color-red: #FF6A67;
+}
 body {
   padding: 20px;
   font-family: "Open Sans";
@@ -11,7 +19,7 @@ hr {
 }
 .container {
   width: 775px;
-  background-color: #ffffff;
+  background-color: var(--color-white);
   border-radius: 10px;
   -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
@@ -38,20 +46,20 @@ hr {
 
 .m-header {
  font-size: 22px;
- line-height: 28px;
 }
+
 .resolution-tabs {
   margin-top: 20px;
 }
 .m-btn-group {
-  border: 1px solid #D9D9D9;
+  border: 1px solid var(--border-color);
   overflow: hidden;
   border-radius: 4px;
 }
 .m-btn-group > .m-btn {
   border-radius: 0;
   border: none;
-  border-right: 1px solid #D9D9D9;
+  border-right: 1px solid var(--border-color);
 }
 .m-btn-group > .m-btn:last-child {
   border-right: none;
@@ -63,18 +71,17 @@ hr {
 }
 .m-btn {
   padding: .25em .5em;
-  border: solid 1px #D9D9D9;
-  font-family: 'Open Sans', sans-serif;
+  border: solid 1px var(--border-color);
   font-size: 14px;
   line-height: 20px;
-  color: #4a4a4a;
+  color: var(--color-darkgrey);
   text-decoration: none;
 
 }
 .m-btn:hover,
 .m-btn:focus {
   cursor: pointer;
-  background-color: #2196F3;
+  background-color: var(--color-blue);
   color: #fff;
 }
 .text-lineH-28 {
@@ -96,7 +103,7 @@ hr {
   margin-left: 10px;
 }
 .text-muted {
-  color: #A0B0B9;
+  color: var(--color-muted);
 }
 .text-default-font {
   font-family: 'Open Sans', sans-serif;
@@ -135,7 +142,7 @@ hr {
   width: 48px;
   border-radius: 50%;
   display: inline-block;
-  background-color: #2196F3;
+  background-color: var(--color-blue);
   position: relative;
 }
 
@@ -244,17 +251,17 @@ hr {
   flex-grow: 1;
 }
 .text-blue {
-  color: #2196F3
+  color: var(--color-blue)
 }
 
 .text-color4 {
-  color: #4a4a4a;
+  color: var(--color-darkgrey);
 }
 .text-colorWhite {
-  color: #ffffff;
+  color: var(--color-white);
 }
 .text-color-red {
-  color: #FF6A67;
+  color: var(--color-red);
 }
 
 .bg-green {
@@ -267,11 +274,11 @@ hr {
   background-color: #5856D5;
 }
 .bg-blue {
-  background-color: #2196F3;
+  background-color: var(--color-blue);
 }
 .bg-grey {
-  background-color: #A0B0B9;
+  background-color: var(--color-muted);
 }
 .bg-red {
-  background-color: #FF6A67;
+  background-color: var(--color-red);
 }
