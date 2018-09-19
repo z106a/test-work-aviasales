@@ -1,5 +1,5 @@
 import {FETCH_SUCCESS, FETCH_ERROR,
-  FETCH_LOADING, FETCH_YESTERDAY, FETCH_TODAY, FETCH_LAST3D} from '../actions/types';
+  FETCH_LOADING, FETCH_YESTERDAY, FETCH_TODAY, FETCH_LAST3D} from 'actions/types';
 
 import {combineReducers} from 'redux';
 

@@ -1,12 +1,12 @@
 import React from 'react';
-import Root from '../../Root';
-import App from '../App';
+import Root from 'Root';
+import App from 'components/App';
 import {mount} from 'enzyme';
-import {Container, FlexWrapper} from '../Div';
+import {Container, FlexWrapper} from 'components/Div';
 import Header from '../Header';
-import ResolutionTabs from '../ResolutionTabs';
-import ProgressBar from '../ProgressBar';
-import InfoGroup from '../InfoGroup';
+import ResolutionTabs from 'components/ResolutionTabs';
+import ProgressBar from 'components/ProgressBar';
+import InfoGroup from 'components/InfoGroup';
 
 let wrapped;
 

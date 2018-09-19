@@ -1,5 +1,5 @@
 import {FETCH_SUCCESS, FETCH_ERROR, FETCH_LOADING, FETCH_YESTERDAY, FETCH_TODAY, FETCH_LAST3D} from './types';
-import api from '../api/api';
+import api from 'api/api';
 
 export const fetchData = () => dispatch => {
   dispatch({type: FETCH_LOADING});

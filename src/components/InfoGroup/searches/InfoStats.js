@@ -1,5 +1,5 @@
 import React from 'react';
-import Div from '../../Div/index';
+import Div from 'components/Div';
 
 export default ({current}) => {
   function renderMe() {

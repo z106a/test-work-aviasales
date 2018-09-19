@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
+import Div from "components/Div";
 import IconLabel from "./IconLabel";
-import Div from "../Div";
 import Info from "./clicks/Info";
 import InfoStats from "./clicks/InfoStats";
 

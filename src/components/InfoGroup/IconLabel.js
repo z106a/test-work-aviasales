@@ -1,7 +1,7 @@
 import React from 'react';
-import Div from '../Div';
+import Div from 'components/Div';
+import Svg, {IconArrow} from "components/Svg";
 import Dot from './Dot';
-import Svg, {IconArrow} from "../Svg";
 
 export default ({labelArrow, dotColor, svg}) => {
   return (
