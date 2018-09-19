@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import Div from '../Div';
+import Div from 'components/Div';
 
 
 class Bar extends Component {
   sum = 0;
-  bg_color = ['bg-yellow', 'bg-darkblue', 'bg-blue', 'bg-grey'];
+  bg_color = Object.freeze(['bg-yellow', 'bg-darkblue', 'bg-blue', 'bg-grey']);
+
   widthCalc = (total, num) => {
     return Math.ceil((num / total) * 100);
   };

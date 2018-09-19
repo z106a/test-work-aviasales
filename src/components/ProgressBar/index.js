@@ -20,7 +20,7 @@ class Progress extends Component {
         <Div classTo="flex">
           {
             this.props.errors.map((el, idx) => {
-              const bg_color = ['bg-yellow', 'bg-darkblue', 'bg-blue', 'bg-grey'];
+              const bg_color = Object.freeze(['bg-yellow', 'bg-darkblue', 'bg-blue', 'bg-grey']);
               const props = {key: idx,
                 count:el.count,
                 code: el.code,
